@@ -61,6 +61,6 @@ class ProductStoreSeeder extends Seeder
         "product_id" => 4,
         "store_id" => 4
     ]
-]);
+      ]);
     }
 }

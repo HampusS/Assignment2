@@ -30,6 +30,6 @@ class CreateProductStore extends Migration
     public function down()
     {
         //
-        Schema::dropIfExists('product_store');
+        Schema::dropIfExists('product_stores');
     }
 }
