@@ -8,8 +8,8 @@ class Store extends Model
 {
     // Price Stores Reviews
 
-    public function stores(){
-      return $this->belongsToMany('App\Product');
+    public function products(){
+      return $this->hasMany('App\Product');
     }
 
 

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
+use App\Review;
 
 class ReviewsController extends Controller
 {
@@ -18,7 +18,7 @@ class ReviewsController extends Controller
 
     public function index()
     {
-      $reviews = Store::all();
+      $reviews = Review::all();
       return response()->json($reviews);
     }
 }
