@@ -11,5 +11,11 @@
 |
 */
 
-$router->get('/Products', 'ProductsController@index');
-$router->get('/Products/{id}', 'ProductsController@show');
+$router->get('/products', 'ProductsController@index');
+$router->get('/products/{id}', 'ProductsController@show');
+
+$router->post('/products', 'ProductsController@add');
+
+$router->get('/stores', 'StoresController@show');
+
+$router->get('/reviews', 'ReviewsController@show');
