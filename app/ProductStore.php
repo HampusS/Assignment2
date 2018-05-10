@@ -6,11 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductStore extends Model
 {
+  protected $table = "product_store";
     public function store(){
-      return $this->hasOne('App\Store');
+      return $table->hasOne('App\Store');
     }
 
     public function product(){
-      return $this->hasOne('App/Product');
+      return $table->hasOne('App/Product');
     }
 }

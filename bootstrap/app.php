@@ -62,11 +62,6 @@ $app->middleware([
    palanik\lumen\Middleware\LumenCors::class
 ]);
 
- $app->routeMiddleware([
-   palanik\lumen\Middleware\LumenCors::class
-//     'auth' => App\Http\Middleware\Authenticate::class,
- ]);
-
 /*
 |--------------------------------------------------------------------------
 | Register Service Providers
